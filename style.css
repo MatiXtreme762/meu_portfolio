@@ -26,6 +26,10 @@ body.dark-mode {
     color: #fff;
 }
 
+:root.dark-mode {
+    --cor-secundaria: #000080;
+}
+
 .dark-mode {
     margin-top: 20px;
 }
