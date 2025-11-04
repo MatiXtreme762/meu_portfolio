@@ -2,6 +2,7 @@
     --cor-principal: #6e859f;
     --cor-secundaria: #284260;
     --cor-destaque: #c92bfc;
+    --cor-dark: #000080;
 }
 
 body {
@@ -26,9 +27,11 @@ body.dark-mode {
     color: #fff;
 }
 
-:root.dark-mode {
-    --cor-secundaria: #000080;
+h1, h2, h5.dark-mode {
+    color: var(--cor-dark);
+    font-weight: 700;
 }
+
 
 .dark-mode {
     margin-top: 20px;
