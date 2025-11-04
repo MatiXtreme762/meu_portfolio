@@ -4,6 +4,10 @@
     --cor-destaque: #c92bfc;
 }
 
+  [data-theme="dark"] {
+    --cor-secundaria: #000080;
+  }
+
 body {
     font-family: 'Arial', sans-serif;
 }
